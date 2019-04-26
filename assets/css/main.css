@@ -1,0 +1,115 @@
+
+/*
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Reset */
+
+/* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
+
+
+@import "/assets/less/index.less";
+@import "/assets/less/navigation.less";
+@import "/assets/less/header.less";
+@import "/assets/less/buttons.less";
+@import "/assets/less/images.less";
+	html, body, div, span, applet, object,
+	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+	pre, a, abbr, acronym, address, big, cite,
+	code, del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var, b,
+	u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+	form, label, legend, table, caption, tbody,
+	tfoot, thead, tr, th, td, article, aside,
+	canvas, details, embed, figure, figcaption,
+	footer, header, hgroup, menu, nav, output, ruby,
+	section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: 'Open Sans", sans-serif';
+		vertical-align: baseline;
+	}
+
+	.container {
+		margin: 0 auto;
+		max-width: calc(100% - 5em);
+		width: 60em;
+	}
+	body {
+		background-color:#d3dce3;
+	}
+
+	#upper_content {
+		background-attachment: scroll,fixed;
+		background-image: linear-gradient(#0f2f5a, #154e6e,#0f2f5a); 
+		background-position: top left,center center;
+		background-repeat: repeat,no-repeat;
+		background-size: auto,cover;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+
+		#upper_content h2 {
+			color: white;
+			font-size: 3.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
+		#upper_content p {
+			font-size: 1.25em;
+			margin-bottom: 1.75em;
+			color:white;
+		}
+
+
+		.box {
+			background: #fff;
+			border-radius: 6px;
+			box-shadow: 0 2px 0 0 #e5e5e5;
+			margin: 0 0 2em 0;
+			padding: 3em;
+			margin-top: -14em;
+			height: 36em;
+		}
+
+		.box.special {
+			text-align: center;
+		}
+
+		.box h2 {
+			font-size: 2em;
+			padding-bottom: .5em;
+		}
+
+		.box p {
+			padding-top: 2em;
+			color: #8199ad;
+		}
+
+		.main_hr {
+			width: 45em;
+			border: 1px solid #0f2f5a;
+		}
+
+		.bottom_content {
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			justify-content: space-between;
+		}
+		
+		.bottom_box {
+			padding:10px;
+			width:33%;
+			background: white;
+			height: 10em;
+			border: solid 1px black;
+			border-radius: 3%;
+			justify-content: space-between;
+		}

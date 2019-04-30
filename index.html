@@ -4,7 +4,8 @@
 		<meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800"rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="/css/index.css" />
+        <script src="/js/carousel.java"></script>
 	</head>
 	<body>
         <header id="header" class="alt"> 
@@ -14,38 +15,51 @@
                     <li><a href="login.html">Log In</a></li>          
                     </ul>        
                 </nav>
-         </header>
+        </header>
     <section id="upper_content">
         <img src="images/logo.png" alt=""/>
             <p>Sleep Better, Live Better.</p>
             <div>
                 <button class="sign_up">Sign Up</button>
-               <button class="learn_more"><a href="about.html">Learn More</button></a>
+                <button class="learn_more"><a href="about.html">Learn More</button></a>
             </div>
     </section>
-        <section class= "container">
+        <section class= "container"> <!--container section -->
 		    <section id="main">
                 <section class="box special">
                     <h2>How well are you sleeping?</h2>
-                    <hr class="main_hr">
-                    <p>Sleep is one of the key elements in exercise recovery and is crucial to physical and mental wellbeing. Good quality sleep is often overlooked in favour of how many hours you can cram into your busy lifestyle.</p>
+                     <hr class="main_hr">
+                        <p class="index_p">Sleep is one of the key elements in exercise recovery and is crucial to physical and mental wellbeing. Good quality sleep is often overlooked in favour of how many hours you can cram into your busy lifestyle.</p>
                     <span class="image featured"><img src="images/pic01.png" alt="" /></span>
                 </section>
             </section>
-            
-            <section class="bottom_content">
-                <div class="bottom_box">
-                    <img class="bottom_img" src="images/sleepNeed.png" alt="" />
+
+
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                   <img src="/images/screenshot_1.png" style="width:100%">
+                   <div class="text">Log your mood</div>
                 </div>
-                <div class="bottom_box">
-                    <img class="bottom_img" src="images/stages.png" alt=""/>
-                </div>
-            </section>
-        </section>
+                <div class="mySlides fade">
+                    <img src="/images/screenshot_2.png" style="width:100%">
+                    <div class="text">Track your sleep</div>
+               </div>
+        
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+         <br>
+        
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+            </div>
+        </section>  <!-- end of container section -->
             <section id="footer">
-                <span>
-                   Sweet Dreams Sleep Tracker by Lambda
-                </span>
+                <span>Sweet Dreams Sleep Tracker by Lambda</span>
             </section>
         
     </body>

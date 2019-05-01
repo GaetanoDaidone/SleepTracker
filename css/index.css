@@ -310,6 +310,9 @@ body {
   .index_p {
     display: none;
   }
+  #upper_content img {
+    margin-top: -10em;
+  }
 }
 /* Style the links inside the sidenav */
 #mySidenav a {

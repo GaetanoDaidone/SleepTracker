@@ -6,14 +6,23 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800"rel="stylesheet">
         <link rel="stylesheet" href="/css/index.css" />
         <script src="/js/carousel.java"></script>
+        <script src="/js/menu.js"></script>
 	</head>
 	<body>
         <header id="header" class="alt"> 
-            <h1>Sleep Tracker by Lambda</h1>
                 <nav id="nav">
-                    <ul>
-                    <li><a href="login.html">Log In</a></li>          
-                    </ul>        
+                        <div class="container-nav" onclick="myFunction(this)">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
+                                    <div id="myDropdown" class="dropdown-content">
+                                      <a href="index.html">Home</a>
+                                      <a href="about.html">Learn More</a>
+                                      <a href="developers.html">Meet The Team</a>
+                                      <a href="#">Sign Up</a>
+                                      <a href="#">Log in</a>
+                                    </div>
+                                </div>
                 </nav>
         </header>
     <section id="upper_content">

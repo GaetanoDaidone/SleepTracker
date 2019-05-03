@@ -314,47 +314,51 @@ body {
     margin-top: -10em;
   }
 }
-/* Style the links inside the sidenav */
-#mySidenav a {
-  position: absolute;
-  /* Position them relative to the browser window */
-  left: -80px;
-  /* Position them outside of the screen */
-  transition: 0.3s;
-  /* Add transition on hover */
-  width: 100px;
-  /* Set a specific width */
-  text-decoration: none;
-  /* Remove underline */
-  font-size: 16px;
-  /* Increase font size */
-  color: white;
-  /* White text color */
-  border-radius: 0 5px 5px 0;
-  /* Rounded corners on the top right and bottom right side */
-}
-#mySidenav a:hover {
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  /* On mouse-over, make the elements appear as they should */
+  background-color: #0f2f5a;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
-/* The about link: 20px from the top with a green background */
-#about {
-  top: 20px;
-  background-color: #d3dce3;
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s;
 }
-#blog {
-  top: 80px;
-  background-color: #8199ad;
-  /* Blue */
+.sidenav a:hover {
+  color: #8199ad;
 }
-#projects {
-  top: 140px;
-  background-color: #154e6e;
-  /* Red */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
-#contact {
-  top: 200px;
-  background-color: #0f2f5a /* Light Black */;
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+#nav span {
+  color: #000;
+  font-size: 3em;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 #footer {
   padding-top: 20px;

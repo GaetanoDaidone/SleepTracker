@@ -7,16 +7,21 @@
         <link rel="stylesheet" href="/css/index.css" />
         <script src="/js/carousel.js"></script>
         <script src="/js/menu.js"></script>
+        <script src="/js/listeners.js"></script>
 	</head>
 	<body>
             <header id="header" class="alt"> 
                     <nav id="nav">
+                            <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+                        </div>
                             <div id="mySidenav" class="sidenav">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                                     <a href="index.html" id="about">Home</a>
                                     <a href="about.html" id="blog">Learn More</a>
                                     <a href="developers.html" id="projects">Team</a>
                                     <a href="https://lambdasleeptracker.netlify.com/" id="contact">Log In</a>
-                                  </div>
+                            </div>
+                                    
                     </nav>
             </header>
 

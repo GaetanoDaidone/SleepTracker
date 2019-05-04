@@ -478,6 +478,8 @@ button a {
   bottom: 8px;
   width: 100%;
   text-align: center;
+}
+.txt-carousel {
   text-shadow: 2px 2px 4px #0f2f5a;
 }
 /* The dots/bullets/indicators */

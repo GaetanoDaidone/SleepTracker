@@ -264,6 +264,15 @@ body {
   }
   .slideshow-1 {
     content: url("/images/mobile1.jpg");
+    height: 100%;
+  }
+  .slideshow-2 {
+    content: url("/images/mobile2.jpg");
+    height: 100%;
+  }
+  .slideshow-3 {
+    content: url("/images/mobile3.jpg");
+    height: 100%;
   }
 }
 @media (min-width: 700px) {

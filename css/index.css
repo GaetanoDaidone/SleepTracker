@@ -163,6 +163,12 @@ body {
   margin-bottom: 1.75em;
   color: white;
 }
+.index_p {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
 .box {
   background-color: #8199ad;
   border-radius: 6px;
@@ -444,16 +450,17 @@ button a {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: #154e6e;
+  background-color: #000;
 }
 /* Caption text */
 .text {
-  color: #154e6e;
-  font-size: 1.5em;
+  color: #000;
+  font-size: 2.5em;
   padding-top: 20px;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  text-shadow: 2px 2px 4px #0f2f5a;
 }
 /* The dots/bullets/indicators */
 .dot {

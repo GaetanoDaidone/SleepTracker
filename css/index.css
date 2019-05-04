@@ -259,9 +259,18 @@ body {
   .col-sm-dev {
     display: none;
   }
+  .slideshow-container-mobile {
+    visibility: visible;
+  }
+  .slideshow-1 {
+    content: url("/images/mobile1.jpg");
+  }
 }
 @media (min-width: 700px) {
   .slideshow-container-dev {
+    display: none;
+  }
+  .slideshow-container-mobile {
     display: none;
   }
 }
